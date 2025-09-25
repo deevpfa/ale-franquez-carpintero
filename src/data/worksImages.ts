@@ -11,7 +11,7 @@ export interface WorkImage {
 
 // Helper function to get image path
 export const getImagePath = (filename: string) => {
-  return `/src/assets/works/${filename}`;
+  return `/works/${filename}`;
 };
 
 export const worksImagesByYear = {
