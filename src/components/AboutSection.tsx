@@ -23,7 +23,7 @@ const AboutSection = () => {
                 </h3>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Con más de 15 años de experiencia en el arte de la carpintería,
+                    Con más de 10 años de experiencia en el arte de la carpintería,
                     he dedicado mi vida a crear piezas únicas que combinan la tradición
                     artesanal con el diseño contemporáneo.
                   </p>
