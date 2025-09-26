@@ -27,7 +27,7 @@ const ContactForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Validate form data
     const validation = validateContactForm(formData);
     if (!validation.isValid) {
@@ -44,7 +44,7 @@ const ContactForm = () => {
     try {
       // Send email using the service
       const result = await sendContactEmail(formData);
-      
+
       if (result.success) {
         toast({
           title: "¡Mensaje enviado!",
@@ -100,11 +100,11 @@ const ContactForm = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <Mail className="h-5 w-5 text-primary" />
-                    <span className="text-muted-foreground">alejandro.franquez@email.com</span>
+                    <span className="text-muted-foreground">deevpfa@gmail.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Phone className="h-5 w-5 text-primary" />
-                    <span className="text-muted-foreground">+54 9 11 1234-5678</span>
+                    <span className="text-muted-foreground">+54 9 2396 57-3695</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-5 w-5 text-primary" />
@@ -193,8 +193,8 @@ const ContactForm = () => {
                   />
                 </div>
 
-                <Button 
-                  type="submit" 
+                <Button
+                  type="submit"
                   disabled={isSubmitting}
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg py-3 font-medium text-lg disabled:opacity-50 disabled:cursor-not-allowed"
                 >
